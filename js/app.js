@@ -72,7 +72,7 @@ switch (month) {
 //Exercise 8
 let password = "ge&adfd";
 if (password.length > 5) {
-  if (password.indexOf("&")) {
+  if (password.includes("&")) {
     console.log("This password is strong");
   }
 } else {
